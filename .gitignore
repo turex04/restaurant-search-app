@@ -9,6 +9,8 @@ npm-debug.*
 *.orig.*
 web-build/
 api_keys.txt
+.vscode
+
 
 # macOS
 .DS_Store
