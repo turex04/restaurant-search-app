@@ -21,9 +21,9 @@ export default () => {
         }
     };
 
-    useEffect(() => {
-        searchApi("steak");
-    }, []);
+    // useEffect(() => {
+    //     searchApi("steak");
+    // }, []);
 
     return [results, errorMessage, searchApi];
 };
