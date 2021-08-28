@@ -23,27 +23,22 @@ export default function SearchScreen({ navigation }) {
             {errorMessage ? <Text>{errorMessage}</Text> : null}
             <ScrollView>
                 <ResultsList
-                    navigation={navigation}
                     results={filterResultsByPrice("$")}
                     title="Cost Effective"
                 />
                 <ResultsList
-                    navigation={navigation}
                     results={filterResultsByPrice("$$")}
                     title="Bit Pricier"
                 />
                 <ResultsList
-                    navigation={navigation}
                     results={filterResultsByPrice("$$$")}
                     title="Big Spender"
                 />
                 <ResultsList
-                    navigation={navigation}
                     results={filterResultsByPrice("$$$$")}
                     title="Mega Spender"
                 />
                 <ResultsList
-                    navigation={navigation}
                     results={filterResultsByPrice("$$$$$")}
                     title="Grand Spender"
                 />
